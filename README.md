@@ -25,3 +25,4 @@ I am a B.Tech Computer Science Engineering (Artificial Intelligence & Machine Le
 [![](https://komarev.com/ghpvc/?username=Fg-naitik&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+![snake gif](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.gif)
