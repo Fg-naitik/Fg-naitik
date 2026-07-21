@@ -3,6 +3,8 @@
 </p>
 <h1 align="center">Hi 👋, I'm Naitik Bhandari</h1>
 <h3 align="center">🚀 Full Stack Developer | React • Node.js • JavaScript | Building Scalable Applications | Exploring AI | Always Learning</h3>
+
+
 # 💫 About Me:
 I am a B.Tech Computer Science Engineering (Artificial Intelligence & Machine Learning) student with a strong interest in technology, software development, and problem-solving. I am passionate about learning new skills and building practical projects in areas such as web development, artificial intelligence, and full-stack development.<br><br>I enjoy working on real-world projects, participating in internships and hackathons, and continuously improving my technical and soft skills. My goal is to gain hands-on industry experience, contribute to innovative projects, and build a successful career in the technology sector.<br><br>I am a quick learner, a team player, and always eager to explore new opportunities that help me grow both personally and professionally.
 
@@ -52,4 +54,8 @@ I am a B.Tech Computer Science Engineering (Artificial Intelligence & Machine Le
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Fg-naitik/Fg-naitik/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer"/>
 </p>
