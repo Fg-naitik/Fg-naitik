@@ -1,12 +1,14 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,100:0072FF&height=220&section=header&text=Naitik%20Bhandari&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20|%20React%20•%20Node.js%20•%20|%20Exploring%20AI&descAlignY=60&descSize=20"/>
+  <img src="https://capsule-render.vercel.app/api?
+type=waving&color=0:00C6FF,100:0072FF&height=220&section=header&text=Naitik%20Bhandari&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20|%20React%20•%20Node.js%20•%20|%20Exploring%20AI&descAlignY=60&descSize=20"/>
 </p>
-<h1 align="center">Hi 👋, I'm Naitik Bhandari</h1>
-<h3 align="center">🚀 Full Stack Developer | React • Node.js • JavaScript | Building Scalable Applications | Exploring AI | Always Learning</h3>
+
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=&weight=900&size=22&pause=1000&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Naitik+Bhandari;%F0%9F%9A%80+Full+Stack+Developer+;Building+Scalable+Applications;React+%E2%80%A2+Node.js+%E2%80%A2+JavaScript;Exploring+AI+%26++Always+Learning" alt="Typing SVG" /></a>
+</p>
 
 
-# 💫 About Me:
-I am a B.Tech Computer Science Engineering (Artificial Intelligence & Machine Learning) student with a strong interest in technology, software development, and problem-solving. I am passionate about learning new skills and building practical projects in areas such as web development, artificial intelligence, and full-stack development.<br><br>I enjoy working on real-world projects, participating in internships and hackathons, and continuously improving my technical and soft skills. My goal is to gain hands-on industry experience, contribute to innovative projects, and build a successful career in the technology sector.<br><br>I am a quick learner, a team player, and always eager to explore new opportunities that help me grow both personally and professionally.
+
 
 
 ## 🌐 Socials:
@@ -15,17 +17,6 @@ I am a B.Tech Computer Science Engineering (Artificial Intelligence & Machine Le
 
 # 💻 Tech Stack:
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
-
-
-
-## 🧩 Skill Icons
-
-<p align="left">
-<img src="https://skillicons.dev/icons?i=c,cpp,java,js,python,react,nextjs,nodejs,mysql,mongodb,vscode,figma,netlify,vercel&perline=14" />
-</p>
-
-
 
 
 # 📊 GitHub Stats:
