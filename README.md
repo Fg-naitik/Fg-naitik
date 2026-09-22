@@ -1,7 +1,4 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?
-type=waving&color=0:00C6FF,100:0072FF&height=220&section=header&text=Naitik%20Bhandari&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20|%20React%20•%20Node.js%20•%20|%20Exploring%20AI&descAlignY=60&descSize=20"/>
-</p>
+
 
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=&weight=900&size=22&pause=1000&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Naitik+Bhandari;%F0%9F%9A%80+Full+Stack+Developer+;Building+Scalable+Applications;React+%E2%80%A2+Node.js+%E2%80%A2+JavaScript;Exploring+AI+%26++Always+Learning" alt="Typing SVG" /></a>
