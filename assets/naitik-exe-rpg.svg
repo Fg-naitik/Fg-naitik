@@ -16,15 +16,15 @@
   </pattern>
   <clipPath id="portrait"><rect x="38" y="130" width="590" height="850" rx="18"/></clipPath>
   <style>
-    .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .ui { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
     .mono { font-family: "SFMono-Regular", Consolas, monospace; }
-    .section { font-size:15px; font-weight:700; letter-spacing:1.8px; }
-    .stat-label { font-size:12px; font-weight:650; fill:#91A4BA; letter-spacing:.8px; }
-    .stat-value { font-size:25px; font-weight:750; fill:#F4F7FB; }
-    .skill-name { font-size:15px; font-weight:650; fill:#DCE7F4; letter-spacing:.5px; }
-    .skill-value { font-size:14px; font-weight:700; fill:#DCE7F4; }
-    .achievement-title { font-size:13px; font-weight:750; letter-spacing:.5px; }
-    .achievement-detail { font-size:12px; fill:#9AACC0; }
+    .section { font-size:18px; font-weight:800; letter-spacing:1.2px; }
+    .stat-label { font-size:15px; font-weight:750; fill:#DCE7F4; letter-spacing:.25px; }
+    .stat-value { font-size:29px; font-weight:800; fill:#FFFFFF; }
+    .skill-name { font-size:17px; font-weight:750; fill:#F0F5FC; letter-spacing:.2px; }
+    .skill-value { font-size:17px; font-weight:800; fill:#FFFFFF; }
+    .achievement-title { font-size:15px; font-weight:800; letter-spacing:.2px; }
+    .achievement-detail { font-size:14px; font-weight:650; fill:#D0DBE8; }
   </style>
 </defs>
 
@@ -38,7 +38,7 @@
   <circle cx="44" cy="87" r="5" fill="#00FF9D" filter="url(#glow)">
     <animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <text x="59" y="92" fill="#91A4BA" font-size="13">SYSTEM ONLINE  •  UPDATED 2026-11-15 06:32 UTC</text>
+  <text x="59" y="92" fill="#91A4BA" font-size="15" font-weight="650">SYSTEM ONLINE  •  UPDATED 2026-11-15 06:37 UTC</text>
 </g>
 <path d="M30 112H1470" stroke="#00E5FF" stroke-opacity=".22"/>
 
@@ -56,25 +56,25 @@
 
 <!-- Dashboard -->
 <g class="ui">
-  <text x="700" y="157" fill="#91A4BA" font-size="14" font-weight="650" letter-spacing="2">CURRENT CLASS</text>
+  <text x="700" y="157" fill="#91A4BA" font-size="16" font-weight="750" letter-spacing="1.2">CURRENT CLASS</text>
   <text x="700" y="197" fill="#F4F7FB" font-size="29" font-weight="750">BUILDER // AI &amp; FULL STACK</text>
   <text x="700" y="226" fill="#91A4BA" font-size="17">Turning ideas into useful digital products</text>
 
   <rect x="690" y="252" width="760" height="176" rx="17" fill="#0A1423" stroke="#29415B"/>
-  <text x="720" y="290" fill="#00E5FF" font-size="14" font-weight="700" letter-spacing="2">PLAYER LEVEL</text>
+  <text x="720" y="290" fill="#00E5FF" font-size="16" font-weight="800" letter-spacing="1.2">PLAYER LEVEL</text>
   <text x="720" y="375" fill="#F4F7FB" font-size="76" font-weight="800">05</text>
   <text x="860" y="343" fill="#F4F7FB" font-size="22" font-weight="700">LEVEL 5</text>
-  <text x="860" y="372" fill="#91A4BA" font-size="15">2,050 TOTAL XP  ·  450 XP TO NEXT LEVEL</text>
+  <text x="860" y="372" fill="#91A4BA" font-size="17" font-weight="650">2,060 TOTAL XP  ·  440 XP TO NEXT LEVEL</text>
   <rect x="860" y="390" width="520" height="12" rx="6" fill="#1D2B40"/>
-  <rect x="860" y="390" width="52.0" height="12" rx="6" fill="url(#edge)">
-    <animate attributeName="width" from="0" to="52.0" dur="1.4s" fill="freeze"/>
+  <rect x="860" y="390" width="62.400000000000006" height="12" rx="6" fill="url(#edge)">
+    <animate attributeName="width" from="0" to="62.400000000000006" dur="1.4s" fill="freeze"/>
   </rect>
 
   <text x="700" y="458" class="section" fill="#00E5FF">LIVE GITHUB ATTRIBUTES</text>
   
         <rect x="700" y="465" width="170" height="78" rx="12" fill="#0B1626" stroke="#293D56"/>
         <text x="717" y="493" class="stat-label">CONTRIBUTIONS</text>
-        <text x="717" y="525" class="stat-value">150</text>
+        <text x="717" y="525" class="stat-value">151</text>
         <rect x="885" y="465" width="170" height="78" rx="12" fill="#0B1626" stroke="#293D56"/>
         <text x="902" y="493" class="stat-label">PUBLIC REPOS</text>
         <text x="902" y="525" class="stat-value">11</text>
@@ -86,7 +86,7 @@
         <text x="1272" y="525" class="stat-value">0</text>
 
   <text x="700" y="585" class="section" fill="#00E5FF">SKILL TREE</text>
-  <text x="1450" y="585" fill="#91A4BA" font-size="12" text-anchor="end" letter-spacing=".7">MANUALLY CONFIGURED</text>
+  <text x="1450" y="585" fill="#91A4BA" font-size="14" font-weight="650" text-anchor="end" letter-spacing=".3">MANUALLY CONFIGURED</text>
   
         <text x="700" y="625" class="skill-name">PYTHON</text>
         <rect x="940" y="612" width="300" height="11" rx="5.5" fill="#202D42"/>
