@@ -1,0 +1,48 @@
+name: Update NAITIK.EXE RPG Card
+
+on:
+  schedule:
+    - cron: "17 18 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "rpg-config.json"
+      - "scripts/generate_rpg.py"
+      - "assets/rpg-avatar.jpg"
+      - ".github/workflows/rpg-card.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: naitik-exe-rpg
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate dynamic RPG SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_rpg.py
+
+      - name: Commit updated player card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/naitik-exe-rpg.svg
+          if git diff --cached --quiet; then
+            echo "RPG card is already up to date."
+          else
+            git commit -m "Update NAITIK.EXE RPG player card"
+            git push
+          fi
