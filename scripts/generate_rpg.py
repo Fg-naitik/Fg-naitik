@@ -119,15 +119,15 @@ def build_svg(stats):
   </pattern>
   <clipPath id="portrait"><rect x="38" y="130" width="590" height="850" rx="18"/></clipPath>
   <style>
-    .ui {{ font-family: Inter, "Segoe UI", Arial, sans-serif; }}
+    .ui {{ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }}
     .mono {{ font-family: "SFMono-Regular", Consolas, monospace; }}
-    .section {{ font-size:15px; font-weight:700; letter-spacing:1.8px; }}
-    .stat-label {{ font-size:12px; font-weight:650; fill:{t['muted']}; letter-spacing:.8px; }}
-    .stat-value {{ font-size:25px; font-weight:750; fill:{t['text']}; }}
-    .skill-name {{ font-size:15px; font-weight:650; fill:#DCE7F4; letter-spacing:.5px; }}
-    .skill-value {{ font-size:14px; font-weight:700; fill:#DCE7F4; }}
-    .achievement-title {{ font-size:13px; font-weight:750; letter-spacing:.5px; }}
-    .achievement-detail {{ font-size:12px; fill:#9AACC0; }}
+    .section {{ font-size:18px; font-weight:800; letter-spacing:1.2px; }}
+    .stat-label {{ font-size:15px; font-weight:750; fill:#DCE7F4; letter-spacing:.25px; }}
+    .stat-value {{ font-size:29px; font-weight:800; fill:#FFFFFF; }}
+    .skill-name {{ font-size:17px; font-weight:750; fill:#F0F5FC; letter-spacing:.2px; }}
+    .skill-value {{ font-size:17px; font-weight:800; fill:#FFFFFF; }}
+    .achievement-title {{ font-size:15px; font-weight:800; letter-spacing:.2px; }}
+    .achievement-detail {{ font-size:14px; font-weight:650; fill:#D0DBE8; }}
   </style>
 </defs>
 
@@ -141,7 +141,7 @@ def build_svg(stats):
   <circle cx="44" cy="87" r="5" fill="#00FF9D" filter="url(#glow)">
     <animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <text x="59" y="92" fill="#91A4BA" font-size="13">SYSTEM ONLINE  •  UPDATED {updated}</text>
+  <text x="59" y="92" fill="#91A4BA" font-size="15" font-weight="650">SYSTEM ONLINE  •  UPDATED {updated}</text>
 </g>
 <path d="M30 112H1470" stroke="{t['cyan']}" stroke-opacity=".22"/>
 
@@ -159,15 +159,15 @@ def build_svg(stats):
 
 <!-- Dashboard -->
 <g class="ui">
-  <text x="700" y="157" fill="{t['muted']}" font-size="14" font-weight="650" letter-spacing="2">CURRENT CLASS</text>
+  <text x="700" y="157" fill="{t['muted']}" font-size="16" font-weight="750" letter-spacing="1.2">CURRENT CLASS</text>
   <text x="700" y="197" fill="{t['text']}" font-size="29" font-weight="750">{escape(CFG['class_name'])}</text>
   <text x="700" y="226" fill="{t['muted']}" font-size="17">{escape(CFG['tagline'])}</text>
 
   <rect x="690" y="252" width="760" height="176" rx="17" fill="#0A1423" stroke="#29415B"/>
-  <text x="720" y="290" fill="{t['cyan']}" font-size="14" font-weight="700" letter-spacing="2">PLAYER LEVEL</text>
+  <text x="720" y="290" fill="{t['cyan']}" font-size="16" font-weight="800" letter-spacing="1.2">PLAYER LEVEL</text>
   <text x="720" y="375" fill="{t['text']}" font-size="76" font-weight="800">{level:02d}</text>
   <text x="860" y="343" fill="{t['text']}" font-size="22" font-weight="700">LEVEL {level}</text>
-  <text x="860" y="372" fill="{t['muted']}" font-size="15">{xp:,} TOTAL XP  ·  {xp_to_next:,} XP TO NEXT LEVEL</text>
+  <text x="860" y="372" fill="{t['muted']}" font-size="17" font-weight="650">{xp:,} TOTAL XP  ·  {xp_to_next:,} XP TO NEXT LEVEL</text>
   <rect x="860" y="390" width="520" height="12" rx="6" fill="#1D2B40"/>
   <rect x="860" y="390" width="{5.2*pct}" height="12" rx="6" fill="url(#edge)">
     <animate attributeName="width" from="0" to="{5.2*pct}" dur="1.4s" fill="freeze"/>
@@ -177,7 +177,7 @@ def build_svg(stats):
   {''.join(stat_cards)}
 
   <text x="700" y="585" class="section" fill="{t['cyan']}">SKILL TREE</text>
-  <text x="1450" y="585" fill="{t['muted']}" font-size="12" text-anchor="end" letter-spacing=".7">MANUALLY CONFIGURED</text>
+  <text x="1450" y="585" fill="{t['muted']}" font-size="14" font-weight="650" text-anchor="end" letter-spacing=".3">MANUALLY CONFIGURED</text>
   {''.join(skills)}
 
   <text x="700" y="875" class="section" fill="{t['cyan']}">ACHIEVEMENTS</text>
