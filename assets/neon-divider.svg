@@ -1,18 +1,137 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-label="Animated neon cyan and purple divider">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="110"
+     viewBox="0 0 1200 110">
+
   <defs>
-    <linearGradient id="g" x1="0" x2="1">
-      <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
-      <stop offset=".25" stop-color="#00e5ff"/>
-      <stop offset=".7" stop-color="#8b5cf6"/>
-      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    <!-- Neon gradient -->
+    <linearGradient id="neon" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
     </linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+    <!-- Energy glow -->
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Core gradient -->
+    <radialGradient id="core">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <path d="M0 14 H1200" stroke="url(#g)" stroke-width="2" filter="url(#glow)"/>
-  <path d="M0 14 H1200" stroke="url(#g)" stroke-width="1" stroke-dasharray="18 24">
-    <animate attributeName="stroke-dashoffset" from="0" to="-168" dur="5s" repeatCount="indefinite"/>
-  </path>
-  <circle cx="600" cy="14" r="4" fill="#fff" filter="url(#glow)">
-    <animate attributeName="r" values="3;5;3" dur="1.8s" repeatCount="indefinite"/>
-  </circle>
+
+  <!-- Background-free circuit lines -->
+  <g fill="none" stroke="url(#neon)" stroke-width="1.5">
+
+    <path d="M20 55 H425 L455 35 H480"/>
+    <path d="M20 55 H425 L455 75 H480"/>
+
+    <path d="M1180 55 H775 L745 35 H720"/>
+    <path d="M1180 55 H775 L745 75 H720"/>
+
+    <path d="M35 45 H180 M35 65 H180"
+          opacity=".5"/>
+
+    <path d="M1165 45 H1020 M1165 65 H1020"
+          opacity=".5"/>
+
+  </g>
+
+  <!-- Circuit nodes -->
+  <g fill="#00E5FF" filter="url(#glow)">
+    <circle cx="180" cy="45" r="2"/>
+    <circle cx="180" cy="65" r="2"/>
+    <circle cx="1020" cy="45" r="2"/>
+    <circle cx="1020" cy="65" r="2"/>
+    <circle cx="425" cy="55" r="3"/>
+    <circle cx="775" cy="55" r="3"/>
+  </g>
+
+  <!-- Moving energy pulses -->
+  <g filter="url(#glow)">
+    <circle r="3" fill="#FFFFFF">
+      <animateMotion
+        dur="4s"
+        repeatCount="indefinite"
+        path="M20 55 H1180"/>
+    </circle>
+
+    <circle r="3" fill="#A855F7">
+      <animateMotion
+        dur="4s"
+        begin="2s"
+        repeatCount="indefinite"
+        path="M1180 55 H20"/>
+    </circle>
+  </g>
+
+  <!-- Central energy core -->
+  <g transform="translate(600 55)">
+
+    <circle r="34" fill="url(#core)" opacity=".35">
+      <animate attributeName="r"
+               values="25;38;25"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="23"
+            fill="none"
+            stroke="#00E5FF"
+            stroke-width="1"
+            opacity=".8">
+      <animate attributeName="r"
+               values="18;29;18"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <path d="M0 -20 L17 0 L0 20 L-17 0 Z"
+          fill="#081426"
+          stroke="#00E5FF"
+          stroke-width="2"
+          filter="url(#glow)"/>
+
+    <path d="M0 -12 L10 0 L0 12 L-10 0 Z"
+          fill="#7C3AED"
+          stroke="#FFFFFF"
+          stroke-width=".8"/>
+
+    <circle r="4" fill="#FFFFFF" filter="url(#glow)">
+      <animate attributeName="opacity"
+               values=".5;1;.5"
+               dur="1.5s"
+               repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+  <!-- Small HUD markers -->
+  <g stroke="#00E5FF" fill="none" opacity=".65">
+    <path d="M570 13 H590 M610 13 H630"/>
+    <path d="M570 97 H590 M610 97 H630"/>
+    <path d="M500 50 L510 50 M690 50 L700 50"/>
+  </g>
+
+  <!-- Animated scanner -->
+  <rect x="20" y="53" width="30" height="4"
+        rx="2" fill="#00E5FF" opacity=".8"
+        filter="url(#glow)">
+    <animate attributeName="x"
+             values="20;1150;20"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </rect>
+
 </svg>
