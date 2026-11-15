@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-label="Animated neon cyan and purple divider">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#00e5ff"/>
+      <stop offset=".7" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <path d="M0 14 H1200" stroke="url(#g)" stroke-width="2" filter="url(#glow)"/>
+  <path d="M0 14 H1200" stroke="url(#g)" stroke-width="1" stroke-dasharray="18 24">
+    <animate attributeName="stroke-dashoffset" from="0" to="-168" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="600" cy="14" r="4" fill="#fff" filter="url(#glow)">
+    <animate attributeName="r" values="3;5;3" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
