@@ -1,0 +1,27 @@
+{
+  "username": "Fg-naitik",
+  "display_name": "NAITIK",
+  "class_name": "BUILDER // AI & FULL STACK",
+  "tagline": "Turning ideas into useful digital products",
+  "theme": {
+    "background": "#080D18",
+    "cyan": "#00E5FF",
+    "purple": "#A855F7",
+    "red": "#FF334F",
+    "text": "#F4F7FB",
+    "muted": "#91A4BA"
+  },
+  "progression": {
+    "contribution_xp": 10,
+    "public_repo_xp": 50,
+    "level_xp_step": 500,
+    "manual_skill_points": {
+      "Python": 65,
+      "JavaScript": 60,
+      "Java": 50,
+      "React": 55,
+      "AI / ML": 45,
+      "Product thinking": 70
+    }
+  }
+}
