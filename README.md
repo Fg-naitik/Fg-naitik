@@ -1,10 +1,51 @@
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,45:111B3D,100:00E5FF&height=100&section=header" width="100%" alt="Neon header" />
 
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=&weight=900&size=22&pause=1000&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Naitik+Bhandari;%F0%9F%9A%80+Full+Stack+Developer+;Building+Scalable+Applications;React+%E2%80%A2+Node.js+%E2%80%A2+JavaScript;Exploring+AI+%26++Always+Learning" alt="Typing SVG" /></a>
 </p>
 
+## 🖥️ `SYSTEM BOOT // WHOAMI`
 
+## `> whoami`
+
+```yaml
+name: Naitik Bhandari
+username: Fg-naitik
+education: B.Tech CSE (AI & ML)
+graduation: 2028
+role: Developer | AI/ML Explorer | Product Builder
+
+currently_learning:
+  - Artificial Intelligence
+  - Machine Learning
+  - Full Stack Development
+  - Backend Engineering
+
+interests:
+  - Building digital products
+  - Startups & Entrepreneurship
+  - Technology & Innovation
+  - UI/UX and Product Development
+
+motto: "Think. Build. Break. Learn. Repeat."
+```
+
+<details>
+<summary>🎮 <b>Open developer HUD // hidden diagnostics</b></summary>
+<br/>
+
+| HUD MODULE | STATUS |
+|:--|:--|
+| Learning engine | <code>RUNNING</code> |
+| Project lab | <code>BUILDING</code> |
+| AI/ML exploration | <code>IN PROGRESS</code> |
+| Creative mode | <code>ALWAYS ON</code> |
+| Next level | <code>KEEP SHIPPING</code> |
+
+<sub>Achievement unlocked: Curiosity is your best debugging tool.</sub>
+</details>
+
+<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider" />
 
 
 
@@ -24,9 +65,26 @@
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=Fg-naitik&langs_count=20&theme=dark_github)](https://github-stats-extended.vercel.app/api/top-langs?username=Fg-naitik&langs_count=20&theme=dark_github)
 
 
+## 🌌 3D Contribution Universe
+
+<div align="center">
+
+<img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="Animated 3D GitHub contribution graph" />
+
+</div>
+
+## 🚀 Project Portals
+
+| PROJECT | DESCRIPTION | SOURCE |
+|:--|:--|:--|
+| **Apna Bank** | AI-powered online banking platform | [Repository](https://github.com/Fg-naitik/online_banking_system) |
+| **Face Recognition Attendance** | Face recognition-based attendance project | [Repository](https://github.com/Fg-naitik/Face-Recognition-Attendance-System) |
+| **Sync Music** | Music synchronization app | [Repository](https://github.com/Fg-naitik/sync-music-app) |
 
 
+### `$ exit --but-keep-building`
 
+**"Code is not just about solving problems. It's about creating possibilities."**
 
 
 ## 🐍 Contribution Snake
@@ -38,6 +96,7 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer"/>
 </p>
+
 
 
 </picture>
