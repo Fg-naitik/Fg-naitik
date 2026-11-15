@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">NAITIK.EXE — Developer RPG character card</title>
+  <desc id="desc">A cyberpunk pixel-inspired developer character with animated neon energy, a holographic status panel and quest indicators.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B18"/>
+      <stop offset=".55" stop-color="#10142B"/>
+      <stop offset="1" stop-color="#180D2B"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#5CF6FF"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" x2="1">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#D946EF"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#23415C" stroke-width="1" opacity=".35"/>
+    </pattern>
+    <clipPath id="round">
+      <rect x="8" y="8" width="1184" height="404" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect x="8" y="8" width="1184" height="404" rx="20" fill="url(#bg)" stroke="#1D4260" stroke-width="2"/>
+    <rect x="8" y="8" width="1184" height="404" fill="url(#grid)"/>
+    <path d="M0 92H1200 M0 330H1200" stroke="#00E5FF" opacity=".12"/>
+    <path d="M24 24H330 M870 396H1176" stroke="url(#cyan)" stroke-width="2" opacity=".8"/>
+    <circle cx="1020" cy="100" r="150" fill="#7C3AED" opacity=".07">
+      <animate attributeName="r" values="130;165;130" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="220" cy="300" r="120" fill="#00E5FF" opacity=".05">
+      <animate attributeName="r" values="100;135;100" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- HUD corners -->
+    <g fill="none" stroke="#00E5FF" stroke-width="2" opacity=".8">
+      <path d="M28 62V28H62 M1138 28H1172V62 M28 358V392H62 M1138 392H1172V358"/>
+    </g>
+
+    <!-- Character platform -->
+    <ellipse cx="270" cy="346" rx="132" ry="18" fill="#00E5FF" opacity=".12" filter="url(#glow)">
+      <animate attributeName="opacity" values=".08;.24;.08" dur="2.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="270" cy="342" rx="98" ry="8" fill="none" stroke="#00E5FF" stroke-width="2" opacity=".75">
+      <animate attributeName="rx" values="88;106;88" dur="3s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Pixel-inspired adventurer -->
+    <g transform="translate(190 112)" shape-rendering="crispEdges">
+      <!-- floating hood / hair -->
+      <path d="M42 20H116V36H132V68H116V52H42V68H26V36H42Z" fill="#17243E" stroke="#00E5FF" stroke-width="3"/>
+      <path d="M42 36H116V68H132V116H116V132H42V116H26V68H42Z" fill="#243B5C" stroke="#00E5FF" stroke-width="3"/>
+      <!-- face -->
+      <path d="M50 52H108V112H50Z" fill="#F1B98D"/>
+      <path d="M50 52H108V66H50Z" fill="#111827"/>
+      <path d="M58 78H70V88H58Z M90 78H102V88H90Z" fill="#00E5FF" filter="url(#glow)"/>
+      <path d="M72 100H88V106H72Z" fill="#8B3652"/>
+      <!-- jacket -->
+      <path d="M42 132H116L140 158V224H18V158Z" fill="#111B35" stroke="#8B5CF6" stroke-width="3"/>
+      <path d="M42 132L78 154L116 132L100 224H58Z" fill="#263A62"/>
+      <path d="M76 155V220" stroke="#00E5FF" stroke-width="4" filter="url(#glow)"/>
+      <path d="M18 172H42V202H18Z M116 172H140V202H116Z" fill="#17243E" stroke="#00E5FF" stroke-width="2"/>
+      <!-- hands and boots -->
+      <path d="M18 202H42V222H18Z M116 202H140V222H116Z" fill="#F1B98D"/>
+      <path d="M42 224H70V244H30V234H42Z M88 224H116V234H128V244H88Z" fill="#090E1C" stroke="#00E5FF" stroke-width="2"/>
+      <path d="M30 238H70 M88 238H128" stroke="#A855F7" stroke-width="4"/>
+      <!-- shoulder insignia -->
+      <path d="M112 146L126 160L112 174L98 160Z" fill="#00E5FF" opacity=".9"/>
+    </g>
+
+    <!-- floating particles -->
+    <g fill="#67F4FF" filter="url(#glow)">
+      <circle cx="150" cy="115" r="3"><animate attributeName="cy" values="115;92;115" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="390" cy="170" r="2"><animate attributeName="cy" values="170;145;170" dur="3.5s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="260" r="2"><animate attributeName="cy" values="260;240;260" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="420" cy="290" r="3"><animate attributeName="cy" values="290;268;290" dur="4.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- Main identity -->
+    <g font-family="monospace">
+      <text x="470" y="72" fill="#00E5FF" font-size="15" letter-spacing="4">PLAYER PROFILE // DEVELOPER CLASS</text>
+      <text x="466" y="128" fill="#F8FAFC" font-size="48" font-weight="700">NAITIK.EXE</text>
+      <text x="470" y="160" fill="#A5B4FC" font-size="18">FULL STACK DEVELOPER  •  AI/ML EXPLORER</text>
+      <path d="M470 181H1110" stroke="#274765" stroke-width="2"/>
+      <text x="470" y="216" fill="#7DD3FC" font-size="15" letter-spacing="2">CURRENT QUEST</text>
+      <text x="470" y="246" fill="#FFFFFF" font-size="22">Build. Learn. Ship. Repeat.</text>
+      <text x="470" y="280" fill="#94A3B8" font-size="15">Explore new skills • Create useful products • Level up</text>
+
+      <!-- Quest chips -->
+      <rect x="470" y="306" width="170" height="36" rx="8" fill="#062B3A" stroke="#00E5FF"/>
+      <text x="555" y="329" fill="#67E8F9" font-size="14" text-anchor="middle">[ QUEST: ACTIVE ]</text>
+      <rect x="654" y="306" width="170" height="36" rx="8" fill="#21123B" stroke="#A855F7"/>
+      <text x="739" y="329" fill="#D8B4FE" font-size="14" text-anchor="middle">[ CLASS: BUILDER ]</text>
+      <rect x="838" y="306" width="170" height="36" rx="8" fill="#10253A" stroke="#38BDF8"/>
+      <text x="923" y="329" fill="#BAE6FD" font-size="14" text-anchor="middle">[ MODE: LEARNING ]</text>
+    </g>
+
+    <!-- scan beam -->
+    <rect x="10" y="8" width="1180" height="3" fill="#00E5FF" opacity=".2" filter="url(#glow)">
+      <animate attributeName="y" values="8;408;8" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1080" y="382" fill="#64748B" font-family="monospace" font-size="11" text-anchor="end">SYSTEM ONLINE // 0xF6-NAITIK</text>
+  </g>
+</svg>
