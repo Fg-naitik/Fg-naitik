@@ -4,6 +4,18 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=&weight=900&size=22&pause=1000&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Naitik+Bhandari;%F0%9F%9A%80+Full+Stack+Developer+;Building+Scalable+Applications;React+%E2%80%A2+Node.js+%E2%80%A2+JavaScript;Exploring+AI+%26++Always+Learning" alt="Typing SVG" /></a>
 </p>
 
+
+
+## 🎮 NAITIK.EXE // PLAYER PROFILE
+
+<div align="center">
+  <img
+    src="./assets/naitik-exe-rpg.svg"
+    width="100%"
+    alt="NAITIK.EXE Dynamic RPG Player Card"
+  />
+</div>
+
 ## 🖥️ `SYSTEM BOOT // WHOAMI`
 
 ## `> whoami`
