@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="650" viewBox="0 0 1500 650" role="img" aria-labelledby="title desc">
+<title id="title">NAITIK.EXE AI Companion</title>
+<desc id="desc">An animated holographic AI companion introduces Naitik, his projects, and developer interests in a cyberpunk interface.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070C18"/>
+    <stop offset=".55" stop-color="#0C1425"/>
+    <stop offset="1" stop-color="#190E2B"/>
+  </linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7DF9FF"/>
+    <stop offset=".55" stop-color="#00D9FF"/>
+    <stop offset="1" stop-color="#8A5CFF"/>
+  </linearGradient>
+  <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FF5478"/>
+    <stop offset="1" stop-color="#A855F7"/>
+  </linearGradient>
+  <radialGradient id="core">
+    <stop offset="0" stop-color="#E9FFFF"/>
+    <stop offset=".28" stop-color="#58F1FF"/>
+    <stop offset=".72" stop-color="#286BCE"/>
+    <stop offset="1" stop-color="#172A61"/>
+  </radialGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+    <path d="M34 0H0V34" fill="none" stroke="#315174" stroke-opacity=".18"/>
+  </pattern>
+  <clipPath id="frame"><rect x="5" y="5" width="1490" height="640" rx="24"/></clipPath>
+</defs>
+
+<g clip-path="url(#frame)">
+  <rect width="1500" height="650" fill="url(#bg)"/>
+  <rect width="1500" height="650" fill="url(#grid)"/>
+  <g fill="#C8F8FF">
+    <circle cx="88" cy="145" r="1.6"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="90" r="1.4"><animate attributeName="opacity" values=".2;.9;.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="930" cy="105" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1390" cy="180" r="1.8"><animate attributeName="opacity" values=".2;1;.2" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1260" cy="560" r="1.3"><animate attributeName="opacity" values=".2;.9;.2" dur="3.7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Header -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="58" y="60" fill="#F5F8FF" font-size="27" font-weight="800" letter-spacing="2">NAITIK.EXE  /  AI COMPANION</text>
+    <text x="60" y="91" fill="#9DB2CC" font-size="14" font-weight="600" letter-spacing="1.2">PERSONAL DEVELOPER INTERFACE</text>
+    <circle cx="1410" cy="57" r="5" fill="#00FF9D" filter="url(#soft)">
+      <animate attributeName="opacity" values="1;.25;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1435" y="62" fill="#9DB2CC" font-size="13" text-anchor="end">COMPANION ONLINE</text>
+  </g>
+  <path d="M55 115H1445" stroke="url(#cyan)" stroke-opacity=".55"/>
+
+  <!-- Holographic AI character -->
+  <g transform="translate(320 355)">
+    <circle r="210" fill="#00DFFF" opacity=".045" filter="url(#glow)">
+      <animate attributeName="r" values="195;215;195" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="172" fill="none" stroke="#27DDF7" stroke-opacity=".4" stroke-width="1.5" stroke-dasharray="5 10">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="36s" repeatCount="indefinite"/>
+    </circle>
+    <ellipse rx="150" ry="178" fill="none" stroke="#A855F7" stroke-opacity=".45" stroke-width="2" stroke-dasharray="3 12">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="28s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="125" ry="145" fill="none" stroke="#4AEAFF" stroke-opacity=".32" stroke-width="1.2"/>
+    <path d="M-155 0H155M0-175V175" stroke="#4AEAFF" stroke-opacity=".12"/>
+    <!-- head silhouette -->
+    <path d="M-105-62 Q-105-145 0-154 Q105-145 105-62 L93 70 Q75 142 0 154 Q-75 142-93 70Z"
+          fill="#0B1D39" stroke="url(#cyan)" stroke-width="3" filter="url(#soft)"/>
+    <path d="M-86-68 Q-72-126 0-133 Q72-126 86-68" fill="none" stroke="#B8FBFF" stroke-opacity=".7" stroke-width="2"/>
+    <!-- side fins -->
+    <path d="M-105-48L-139-70L-132 22L-99 37M105-48L139-70L132 22L99 37"
+          fill="#102C50" stroke="#43E9FF" stroke-width="2"/>
+    <!-- face plate -->
+    <path d="M-76-42 Q0-82 76-42 L65 58 Q48 106 0 116 Q-48 106-65 58Z"
+          fill="#102B4A" stroke="#72F4FF" stroke-width="2"/>
+    <!-- eyes -->
+    <path d="M-54 5Q-34-17-13 5Q-34 28-54 5ZM13 5Q34-17 54 5Q34 28 13 5Z"
+          fill="#64F5FF" filter="url(#soft)">
+      <animate attributeName="opacity" values="1;1;.12;1;1" keyTimes="0;0.43;0.47;0.51;1" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="-34" cy="5" r="5" fill="#07111F"/>
+    <circle cx="34" cy="5" r="5" fill="#07111F"/>
+    <path d="M-18 67Q0 80 18 67" fill="none" stroke="#65F5FF" stroke-width="3" stroke-linecap="round"/>
+    <!-- forehead core -->
+    <circle cy="-92" r="13" fill="url(#core)" filter="url(#glow)">
+      <animate attributeName="r" values="11;14;11" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- neck / hologram base -->
+    <path d="M-45 127L-58 157Q0 180 58 157L45 127" fill="#102B4A" stroke="#4AEAFF" stroke-width="2"/>
+    <ellipse cy="174" rx="94" ry="18" fill="#00DFFF" opacity=".14" filter="url(#glow)"/>
+    <ellipse cy="174" rx="74" ry="10" fill="none" stroke="#64F5FF" stroke-width="2"/>
+    <path d="M-130 195H130" stroke="#9C69FF" stroke-opacity=".6"/>
+    <circle cx="-130" cy="195" r="4" fill="#FF5478"/>
+    <circle cx="130" cy="195" r="4" fill="#00E5FF"/>
+    <!-- floating data dots -->
+    <circle cx="-160" cy="-115" r="4" fill="#FF5478"><animate attributeName="cy" values="-115;-130;-115" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="155" cy="100" r="4" fill="#00E5FF"><animate attributeName="cy" values="100;84;100" dur="3.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Left-side companion label -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="70" y="555" width="500" height="54" rx="12" fill="#081526" stroke="#1D6E8D"/>
+    <text x="92" y="578" fill="#62F2FF" font-size="13" font-weight="800" letter-spacing="1.4">AI COMPANION</text>
+    <text x="92" y="597" fill="#B6C8DA" font-size="13">Curious mind. Helpful guide. Always learning.</text>
+  </g>
+
+  <!-- Intro panel -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="650" y="150" width="780" height="420" rx="18" fill="#081526" fill-opacity=".88" stroke="#28506F"/>
+    <path d="M650 194H1430" stroke="#2E6A89" stroke-opacity=".6"/>
+    <text x="685" y="181" fill="#67F1FF" font-size="13" font-weight="800" letter-spacing="1.5">INTRODUCTION PROTOCOL</text>
+    <text x="690" y="247" fill="#F4F8FF" font-size="30" font-weight="800">Hey, I'm Naitik.</text>
+    <text x="690" y="282" fill="#B6C8DA" font-size="18">I turn ideas into digital experiences.</text>
+
+    <rect x="685" y="315" width="710" height="93" rx="12" fill="#0D2035" stroke="#23506C"/>
+    <text x="710" y="345" fill="#69EDFF" font-size="13" font-weight="800" letter-spacing="1.2">WHAT I'M EXPLORING</text>
+    <text x="710" y="375" fill="#E4EDF8" font-size="17">AI / ML  •  Full-stack development  •  Product building</text>
+    <text x="710" y="397" fill="#9FB4CA" font-size="14">Learning by building, experimenting and shipping projects.</text>
+
+    <g>
+      <rect x="685" y="430" width="218" height="82" rx="11" fill="#0B1B2D" stroke="#24506D"/>
+      <text x="706" y="458" fill="#A7B9CD" font-size="12" font-weight="700" letter-spacing="1">CURRENT MODE</text>
+      <text x="706" y="487" fill="#F4F8FF" font-size="19" font-weight="800">BUILD</text>
+      <circle cx="866" cy="478" r="5" fill="#00F5A0"><animate attributeName="opacity" values="1;.3;1" dur="1.4s" repeatCount="indefinite"/></circle>
+    </g>
+    <g>
+      <rect x="921" y="430" width="218" height="82" rx="11" fill="#0B1B2D" stroke="#24506D"/>
+      <text x="942" y="458" fill="#A7B9CD" font-size="12" font-weight="700" letter-spacing="1">FOCUS</text>
+      <text x="942" y="487" fill="#F4F8FF" font-size="19" font-weight="800">CREATE</text>
+      <path d="M1093 478h20m-7-7 7 7-7 7" fill="none" stroke="#A855F7" stroke-width="2"/>
+    </g>
+    <g>
+      <rect x="1157" y="430" width="238" height="82" rx="11" fill="#0B1B2D" stroke="#24506D"/>
+      <text x="1178" y="458" fill="#A7B9CD" font-size="12" font-weight="700" letter-spacing="1">NEXT OBJECTIVE</text>
+      <text x="1178" y="487" fill="#F4F8FF" font-size="19" font-weight="800">LEVEL UP</text>
+      <path d="M1350 487l10-17 10 17z" fill="none" stroke="#FF5478" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Footer waveform / system line -->
+  <g transform="translate(690 535)" stroke="#00DFFF" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M0 0v8 M10 -4v16 M20 -8v24 M30 -3v14 M40 -11v30 M50 -5v18 M60 -2v12 M70 -9v26 M80 -4v16 M90 -12v32 M100 -5v18 M110 -2v12 M120 -8v24 M130 -4v16 M140 0v8">
+      <animate attributeName="opacity" values=".35;1;.35" dur="1.3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text x="850" y="541" fill="#91A8C2" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing=".7">SIGNAL STABLE  /  READY TO EXPLORE THE PROFILE</text>
+  <rect x="7" y="7" width="1486" height="636" rx="23" fill="none" stroke="url(#cyan)" stroke-width="2.5"/>
+</g>
+</svg>
