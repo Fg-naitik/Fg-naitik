@@ -65,13 +65,11 @@ motto: "Think. Build. Break. Learn. Repeat."
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=Fg-naitik&langs_count=20&theme=dark_github)](https://github-stats-extended.vercel.app/api/top-langs?username=Fg-naitik&langs_count=20&theme=dark_github)
 
 
-## 🌌 3D Contribution Universe
-
-<div align="center">
-
-<img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="Animated 3D GitHub contribution graph" />
-
-</div>
+<img
+  src="https://raw.githubusercontent.com/Fg-naitik/Fg-naitik/profile-3d/profile-3d-contrib/profile-green-animate.svg"
+  width="100%"
+  alt="3D GitHub contribution graph"
+/>
 
 ## 🚀 Project Portals
 
