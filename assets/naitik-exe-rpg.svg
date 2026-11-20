@@ -38,7 +38,7 @@
   <circle cx="44" cy="87" r="5" fill="#00FF9D" filter="url(#glow)">
     <animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <text x="59" y="92" fill="#91A4BA" font-size="15" font-weight="650">SYSTEM ONLINE  •  UPDATED 2026-11-19 00:24 UTC</text>
+  <text x="59" y="92" fill="#91A4BA" font-size="15" font-weight="650">SYSTEM ONLINE  •  UPDATED 2026-11-20 00:38 UTC</text>
 </g>
 <path d="M30 112H1470" stroke="#00E5FF" stroke-opacity=".22"/>
 
@@ -64,20 +64,20 @@
   <text x="720" y="290" fill="#00E5FF" font-size="16" font-weight="800" letter-spacing="1.2">PLAYER LEVEL</text>
   <text x="720" y="375" fill="#F4F7FB" font-size="76" font-weight="800">05</text>
   <text x="860" y="343" fill="#F4F7FB" font-size="22" font-weight="700">LEVEL 5</text>
-  <text x="860" y="372" fill="#91A4BA" font-size="17" font-weight="650">2,080 TOTAL XP  ·  420 XP TO NEXT LEVEL</text>
+  <text x="860" y="372" fill="#91A4BA" font-size="17" font-weight="650">2,150 TOTAL XP  ·  350 XP TO NEXT LEVEL</text>
   <rect x="860" y="390" width="520" height="12" rx="6" fill="#1D2B40"/>
-  <rect x="860" y="390" width="83.2" height="12" rx="6" fill="url(#edge)">
-    <animate attributeName="width" from="0" to="83.2" dur="1.4s" fill="freeze"/>
+  <rect x="860" y="390" width="156.0" height="12" rx="6" fill="url(#edge)">
+    <animate attributeName="width" from="0" to="156.0" dur="1.4s" fill="freeze"/>
   </rect>
 
   <text x="700" y="458" class="section" fill="#00E5FF">LIVE GITHUB ATTRIBUTES</text>
   
         <rect x="700" y="465" width="170" height="78" rx="12" fill="#0B1626" stroke="#293D56"/>
         <text x="717" y="493" class="stat-label">CONTRIBUTIONS</text>
-        <text x="717" y="525" class="stat-value">153</text>
+        <text x="717" y="525" class="stat-value">155</text>
         <rect x="885" y="465" width="170" height="78" rx="12" fill="#0B1626" stroke="#293D56"/>
         <text x="902" y="493" class="stat-label">PUBLIC REPOS</text>
-        <text x="902" y="525" class="stat-value">11</text>
+        <text x="902" y="525" class="stat-value">12</text>
         <rect x="1070" y="465" width="170" height="78" rx="12" fill="#0B1626" stroke="#293D56"/>
         <text x="1087" y="493" class="stat-label">FOLLOWERS</text>
         <text x="1087" y="525" class="stat-value">2</text>
