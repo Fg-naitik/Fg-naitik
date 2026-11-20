@@ -3,20 +3,13 @@
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=&weight=900&size=22&pause=1000&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Naitik+Bhandari;%F0%9F%9A%80+Full+Stack+Developer+;Building+Scalable+Applications;React+%E2%80%A2+Node.js+%E2%80%A2+JavaScript;Exploring+AI+%26++Always+Learning" alt="Typing SVG" /></a>
 </p>
-<!-- NAITIK.EXE // AI COMPANION -->
-## 🤖 `NAITIK.EXE // AI COMPANION`
-
-<div align="center">
-  <img
-    src="./assets/ai-companion.svg"
-    width="100%"
-    alt="Animated NAITIK.EXE AI companion introducing Naitik"
-  />
-</div>
 
 
 
-## 🎮 NAITIK.EXE // PLAYER PROFILE
+
+
+
+## 🎮  PLAYER PROFILE
 
 <div align="center">
   <img
