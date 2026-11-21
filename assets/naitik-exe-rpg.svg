@@ -38,7 +38,7 @@
   <circle cx="44" cy="87" r="5" fill="#00FF9D" filter="url(#glow)">
     <animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <text x="59" y="92" fill="#91A4BA" font-size="15" font-weight="650">SYSTEM ONLINE  •  UPDATED 2026-11-20 23:59 UTC</text>
+  <text x="59" y="92" fill="#91A4BA" font-size="15" font-weight="650">SYSTEM ONLINE  •  UPDATED 2026-11-21 23:19 UTC</text>
 </g>
 <path d="M30 112H1470" stroke="#00E5FF" stroke-opacity=".22"/>
 
