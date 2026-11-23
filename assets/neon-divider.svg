@@ -1,21 +1,25 @@
-
 <svg xmlns="http://www.w3.org/2000/svg"
      width="1200"
      height="110"
-     viewBox="0 0 1200 110">
+     viewBox="0 0 1200 110"
+     role="img"
+     aria-labelledby="divider-title divider-desc">
+
+  <title id="divider-title">NAITIK.EXE — Emerald Killer Cursed Tool Divider</title>
+  <desc id="divider-desc">Toji Fushiguro-inspired cursed tool geometric energy divider with emerald pulses.</desc>
 
   <defs>
-    <!-- Neon gradient -->
-    <linearGradient id="neon" x1="0" x2="1">
-      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#00E5FF"/>
-      <stop offset="50%" stop-color="#FFFFFF"/>
-      <stop offset="70%" stop-color="#A855F7"/>
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    <!-- Emerald Killer Gradient -->
+    <linearGradient id="emerald-blade" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00A86B" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#00A86B"/>
+      <stop offset="50%" stop-color="#00FF9C"/>
+      <stop offset="75%" stop-color="#00A86B"/>
+      <stop offset="100%" stop-color="#00A86B" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Energy glow -->
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+    <!-- Cursed Energy Glow -->
+    <filter id="emerald-glow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -23,51 +27,54 @@
       </feMerge>
     </filter>
 
-    <!-- Core gradient -->
-    <radialGradient id="core">
+    <!-- Core Energy Gradient -->
+    <radialGradient id="blade-core">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="40%" stop-color="#00E5FF"/>
-      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#00FF9C"/>
+      <stop offset="70%" stop-color="#00A86B"/>
+      <stop offset="100%" stop-color="#10251A" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <!-- Background-free circuit lines -->
-  <g fill="none" stroke="url(#neon)" stroke-width="1.5">
+  <!-- Sharp Inverted Spear / Cursed Blade Lines -->
+  <g fill="none" stroke="url(#emerald-blade)" stroke-width="1.8">
+    <!-- Left Flank -->
+    <path d="M20 55 H420 L455 35 H500"/>
+    <path d="M20 55 H420 L455 75 H500"/>
+    <path d="M60 45 H240 M60 65 H240" stroke-opacity=".5" stroke-width="1.2"/>
+    <path d="M300 48 L320 48 M340 48 L360 48" stroke="#00FF9C" stroke-opacity=".7"/>
+    <path d="M300 62 L320 62 M340 62 L360 62" stroke="#00FF9C" stroke-opacity=".7"/>
 
-    <path d="M20 55 H425 L455 35 H480"/>
-    <path d="M20 55 H425 L455 75 H480"/>
-
-    <path d="M1180 55 H775 L745 35 H720"/>
-    <path d="M1180 55 H775 L745 75 H720"/>
-
-    <path d="M35 45 H180 M35 65 H180"
-          opacity=".5"/>
-
-    <path d="M1165 45 H1020 M1165 65 H1020"
-          opacity=".5"/>
-
+    <!-- Right Flank -->
+    <path d="M1180 55 H780 L745 35 H700"/>
+    <path d="M1180 55 H780 L745 75 H700"/>
+    <path d="M1140 45 H960 M1140 65 H960" stroke-opacity=".5" stroke-width="1.2"/>
+    <path d="M900 48 L880 48 M860 48 L840 48" stroke="#00FF9C" stroke-opacity=".7"/>
+    <path d="M900 62 L880 62 M860 62 L840 62" stroke="#00FF9C" stroke-opacity=".7"/>
   </g>
 
-  <!-- Circuit nodes -->
-  <g fill="#00E5FF" filter="url(#glow)">
-    <circle cx="180" cy="45" r="2"/>
-    <circle cx="180" cy="65" r="2"/>
-    <circle cx="1020" cy="45" r="2"/>
-    <circle cx="1020" cy="65" r="2"/>
-    <circle cx="425" cy="55" r="3"/>
-    <circle cx="775" cy="55" r="3"/>
+  <!-- Precision Cursed Energy Nodes -->
+  <g fill="#00FF9C" filter="url(#emerald-glow)">
+    <circle cx="240" cy="45" r="2.5"/>
+    <circle cx="240" cy="65" r="2.5"/>
+    <circle cx="960" cy="45" r="2.5"/>
+    <circle cx="960" cy="65" r="2.5"/>
+    <circle cx="420" cy="55" r="3"/>
+    <circle cx="780" cy="55" r="3"/>
   </g>
 
-  <!-- Moving energy pulses -->
-  <g filter="url(#glow)">
-    <circle r="3" fill="#FFFFFF">
+  <!-- Traveling Cursed Energy Pulses -->
+  <g filter="url(#emerald-glow)">
+    <!-- Forward Pulse (Bright Emerald) -->
+    <circle r="3" fill="#00FF9C">
       <animateMotion
         dur="4s"
         repeatCount="indefinite"
         path="M20 55 H1180"/>
     </circle>
 
-    <circle r="3" fill="#A855F7">
+    <!-- Reverse Pulse (Deep Emerald) -->
+    <circle r="3" fill="#00A86B">
       <animateMotion
         dur="4s"
         begin="2s"
@@ -76,61 +83,64 @@
     </circle>
   </g>
 
-  <!-- Central energy core -->
+  <!-- Central Cursed Tool Core (Inverted Spear Nexus) -->
   <g transform="translate(600 55)">
-
-    <circle r="34" fill="url(#core)" opacity=".35">
+    <!-- Expanding Outer Aura -->
+    <circle r="35" fill="url(#blade-core)" opacity=".3">
       <animate attributeName="r"
                values="25;38;25"
                dur="3s"
                repeatCount="indefinite"/>
     </circle>
 
-    <circle r="23"
+    <!-- Concentric Tactical Ring -->
+    <circle r="24"
             fill="none"
-            stroke="#00E5FF"
-            stroke-width="1"
-            opacity=".8">
+            stroke="#00FF9C"
+            stroke-width="1.2"
+            opacity=".75">
       <animate attributeName="r"
-               values="18;29;18"
+               values="18;30;18"
                dur="3s"
                repeatCount="indefinite"/>
     </circle>
 
-    <path d="M0 -20 L17 0 L0 20 L-17 0 Z"
-          fill="#081426"
-          stroke="#00E5FF"
+    <!-- Outer Diamond (Sharp Blade Edge) -->
+    <path d="M0 -22 L19 0 L0 22 L-19 0 Z"
+          fill="#080A09"
+          stroke="#00FF9C"
           stroke-width="2"
-          filter="url(#glow)"/>
+          filter="url(#emerald-glow)"/>
 
-    <path d="M0 -12 L10 0 L0 12 L-10 0 Z"
-          fill="#7C3AED"
-          stroke="#FFFFFF"
-          stroke-width=".8"/>
+    <!-- Inner Diamond (Cursed Core) -->
+    <path d="M0 -13 L11 0 L0 13 L-11 0 Z"
+          fill="#00A86B"
+          stroke="#00FF9C"
+          stroke-width="1"/>
 
-    <circle r="4" fill="#FFFFFF" filter="url(#glow)">
+    <!-- Central Energy Catalyst -->
+    <circle r="4" fill="#FFFFFF" filter="url(#emerald-glow)">
       <animate attributeName="opacity"
-               values=".5;1;.5"
+               values=".6;1;.6"
                dur="1.5s"
                repeatCount="indefinite"/>
     </circle>
-
   </g>
 
-  <!-- Small HUD markers -->
-  <g stroke="#00E5FF" fill="none" opacity=".65">
-    <path d="M570 13 H590 M610 13 H630"/>
-    <path d="M570 97 H590 M610 97 H630"/>
-    <path d="M500 50 L510 50 M690 50 L700 50"/>
+  <!-- Manga-Style Precision HUD Brackets -->
+  <g stroke="#00FF9C" fill="none" opacity=".65" stroke-width="1.2">
+    <path d="M565 14 H585 M615 14 H635"/>
+    <path d="M565 96 H585 M615 96 H635"/>
+    <path d="M495 50 L505 50 M695 50 L705 50"/>
   </g>
 
-  <!-- Animated scanner -->
-  <rect x="20" y="53" width="30" height="4"
-        rx="2" fill="#00E5FF" opacity=".8"
-        filter="url(#glow)">
+  <!-- High-Frequency Edge Scanner -->
+  <rect x="20" y="53.5" width="36" height="3"
+        rx="1.5" fill="#00FF9C" opacity=".85"
+        filter="url(#emerald-glow)">
     <animate attributeName="x"
-             values="20;1150;20"
-             dur="8s"
+             values="20;1144;20"
+             dur="7s"
              repeatCount="indefinite"/>
   </rect>
 

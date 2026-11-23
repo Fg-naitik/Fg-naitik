@@ -4,12 +4,16 @@
   "class_name": "BUILDER // AI & FULL STACK",
   "tagline": "Turning ideas into useful digital products",
   "theme": {
-    "background": "#080D18",
-    "cyan": "#00E5FF",
-    "purple": "#A855F7",
-    "red": "#FF334F",
-    "text": "#F4F7FB",
-    "muted": "#91A4BA"
+    "background": "#080A09",
+    "secondary": "#10251A",
+    "emerald": "#00A86B",
+    "bright_emerald": "#00FF9C",
+    "cyan": "#00FF9C",
+    "purple": "#00A86B",
+    "red": "#00FF9C",
+    "text": "#D5DED8",
+    "muted": "#84928A",
+    "shadow": "#040E08"
   },
   "progression": {
     "contribution_xp": 10,
