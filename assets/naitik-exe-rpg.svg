@@ -53,7 +53,7 @@
   <circle cx="44" cy="87" r="5" fill="#00FF9C" filter="url(#glow)">
     <animate attributeName="opacity" values="1;.3;1" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <text x="59" y="92" fill="#84928A" font-size="14" font-weight="650" letter-spacing=".5">SYSTEM ONLINE  •  TOJI PROTOCOL  •  UPDATED 2026-11-23 09:46 UTC</text>
+  <text x="59" y="92" fill="#84928A" font-size="14" font-weight="650" letter-spacing=".5">SYSTEM ONLINE  •  TOJI PROTOCOL  •  UPDATED 2026-11-23 10:06 UTC</text>
 </g>
 <path d="M30 112H1470" stroke="#00A86B" stroke-opacity=".35"/>
 
@@ -78,12 +78,12 @@
   <!-- Level Progress Card -->
   <rect x="690" y="252" width="760" height="176" rx="17" fill="#0D1E15" stroke="#00A86B" stroke-opacity=".4" stroke-width="1.5"/>
   <text x="720" y="290" fill="#00FF9C" font-size="15" font-weight="800" letter-spacing="1.5">PLAYER LEVEL</text>
-  <text x="720" y="375" fill="#D5DED8" font-size="76" font-weight="800">04</text>
-  <text x="860" y="343" fill="#D5DED8" font-size="22" font-weight="750">LEVEL 4</text>
-  <text x="860" y="372" fill="#84928A" font-size="16" font-weight="650">1,950 TOTAL XP  •  50 XP TO NEXT LEVEL</text>
+  <text x="720" y="375" fill="#D5DED8" font-size="76" font-weight="800">05</text>
+  <text x="860" y="343" fill="#D5DED8" font-size="22" font-weight="750">LEVEL 5</text>
+  <text x="860" y="372" fill="#84928A" font-size="16" font-weight="650">2,160 TOTAL XP  •  340 XP TO NEXT LEVEL</text>
   <rect x="860" y="390" width="520" height="12" rx="6" fill="#10251A"/>
-  <rect x="860" y="390" width="468.0" height="12" rx="6" fill="url(#edge)">
-    <animate attributeName="width" from="0" to="468.0" dur="1.4s" fill="freeze"/>
+  <rect x="860" y="390" width="166.4" height="12" rx="6" fill="url(#edge)">
+    <animate attributeName="width" from="0" to="166.4" dur="1.4s" fill="freeze"/>
   </rect>
 
   <!-- Attributes -->
@@ -91,13 +91,13 @@
   
         <rect x="700" y="465" width="170" height="78" rx="12" fill="#0D1E15" stroke="#00A86B" stroke-opacity=".35" stroke-width="1.2"/>
         <text x="717" y="493" class="stat-label">CONTRIBUTIONS</text>
-        <text x="717" y="525" class="stat-value" fill="#00FF9C">135</text>
+        <text x="717" y="525" class="stat-value" fill="#00FF9C">156</text>
         <rect x="885" y="465" width="170" height="78" rx="12" fill="#0D1E15" stroke="#00A86B" stroke-opacity=".35" stroke-width="1.2"/>
         <text x="902" y="493" class="stat-label">PUBLIC REPOS</text>
         <text x="902" y="525" class="stat-value" fill="#00FF9C">12</text>
         <rect x="1070" y="465" width="170" height="78" rx="12" fill="#0D1E15" stroke="#00A86B" stroke-opacity=".35" stroke-width="1.2"/>
         <text x="1087" y="493" class="stat-label">FOLLOWERS</text>
-        <text x="1087" y="525" class="stat-value" fill="#D5DED8">0</text>
+        <text x="1087" y="525" class="stat-value" fill="#00FF9C">2</text>
         <rect x="1255" y="465" width="195" height="78" rx="12" fill="#0D1E15" stroke="#00A86B" stroke-opacity=".35" stroke-width="1.2"/>
         <text x="1272" y="493" class="stat-label">PULL REQUESTS</text>
         <text x="1272" y="525" class="stat-value" fill="#D5DED8">0</text>
