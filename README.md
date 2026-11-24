@@ -1,17 +1,11 @@
-<!-- =================================================================== -->
-<!-- NAITIK.EXE // EMERALD KILLER — TOJI FUSHIGURO DEVELOPER UNIVERSE     -->
-<!-- Palette: #080A09 (Void) | #10251A (Armor) | #00A86B (Emerald)       -->
-<!--          #00FF9C (Bright) | #D5DED8 (Text) | #84928A (Muted)        -->
-<!-- =================================================================== -->
-
 <div align="center">
 
-  <!-- 1. TOJI-INSPIRED HERO BANNER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:080A09,45:10251A,100:00A86B&height=130&section=header&text=NAITIK.EXE&fontSize=42&fontAlignY=38&fontColor=00FF9C" width="100%" alt="Emerald Killer Waving Header" />
+ 
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:080A09,45:10251A,100:00A86B&height=130&section=header&fontSize=42&fontAlignY=38&fontColor=00FF9C" width="100%" alt="Emerald Killer Waving Header" />
 
   <!-- DYNAMIC TYPING SUBTITLE -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=00FF9C&background=080A0900&center=true&vCenter=true&width=520&lines=Toji-Inspired+Developer+Universe;Full+Stack+Developer+%7C+AI%2FML+Explorer;Building+Scalable+Applications;React+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+Java;Think.+Build.+Break.+Learn.+Repeat." alt="Typing Telemetry" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=00FF9C&background=080A0900&center=true&vCenter=true&width=520&lines=Full+Stack+Developer+%7C+AI%2FML+Explorer;Building+Scalable+Applications;React+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+Java;Think.+Build.+Break.+Learn.+Repeat." alt="Typing Telemetry" />
   </a>
 
 </div>
@@ -26,7 +20,7 @@
     <b><code>[ PROTOCOL: EMERALD KILLER ]</code></b>
   </p>
   <p>
-    <i>"In a world crowded with sorcery, sharpen your tools, eliminate the noise, and execute with absolute precision."</i>
+    <i>"THE ONLY WAY TO DEAL WITH THIS CRUEL WORLD IS TO BECOME SO STRONG THAT YOUR VERY EXISTENCE BECOME AN ACT OF REBELLION"</i>
   </p>
 </div>
 
