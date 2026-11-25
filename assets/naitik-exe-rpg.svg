@@ -53,7 +53,7 @@
   <circle cx="44" cy="87" r="5" fill="#00FF9C" filter="url(#glow)">
     <animate attributeName="opacity" values="1;.3;1" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <text x="59" y="92" fill="#84928A" font-size="14" font-weight="650" letter-spacing=".5">SYSTEM ONLINE  •  TOJI PROTOCOL  •  UPDATED 2026-11-24 07:48 UTC</text>
+  <text x="59" y="92" fill="#84928A" font-size="14" font-weight="650" letter-spacing=".5">SYSTEM ONLINE  •  TOJI PROTOCOL  •  UPDATED 2026-11-25 02:31 UTC</text>
 </g>
 <path d="M30 112H1470" stroke="#00A86B" stroke-opacity=".35"/>
 
